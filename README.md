@@ -25,4 +25,4 @@ Then you can go to the url : [http://localhost:8888/](http://localhost:8888/)
 
 ## Python libraries
 
-numpy, time, pandas, seaborn, matplotlib, sklearn, flask, flask_restplus
+Numpy, time, Pandas, seaborn, matplotlib, Scikit-Learn, Flask, Flask-RESTPlus
