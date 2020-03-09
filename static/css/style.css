@@ -1,0 +1,126 @@
+head {
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: rgb(12, 44, 86);
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(12, 44, 86);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+nav li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(105, 190, 40);
+}
+
+
+body {
+    background-color: rgb(245, 245, 245);
+    align-items: center;
+    font-family:verdana, sans-serif;
+    width: 100%;
+    margin-left: 0;
+}
+
+.subbody {
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    font-family: Lato;
+    text-align: justify;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: solid rgb(255, 255, 255) 10px;
+    font-family:verdana, sans-serif;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    margin: auto;
+    font-size: 1.5em;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.player {
+    font-weight: bold;
+    text-align: center;
+}
+
+.param {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns:  repeat(3, max-content);
+}
+
+.item {
+    font-size: 1em;
+    font-family: sans-serif;
+    text-align: right;
+}
+
+.value {
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.expl {
+    font-size: 1em;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+address {
+    margin-top: 50px;
+    margin-left: 5px;
+}

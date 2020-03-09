@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Investir sur {{ name|capitalize }} ?</h2>
+    <h1>{{ invest|capitalize }}</h1>
+    <p>D'après l'annalyse de ses performances, il {% if pred<0.5 %}ne{% endif %} devrait {% if pred<0.5 %}pas{% endif %} rester en NBA d'ici 5 ans.</p>
+    <p>TARGET_5Yrs : {{ pred }}</p>
+{% endblock %}

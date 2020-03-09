@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Description du modèle</h1>
+    
+    <h2>Choix</h2>
+    <p>Le modèle utilisé ici pour la prédiction est un <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">RandomForestClassifier</a>.</p>
+    <p>Les paramètres utilisés sont :</p>
+    <ul>
+        <li>n_estimators = 245</li>
+        <li>max_depth = 1</li>
+        <li>min_samples_split = 23</li>
+        <li>max_features = "log2"</li>
+        <li>random_state = 50</li>
+    </ul>
+    
+    <h2>Performances</h2>
+    <p>Le modèle présenté ici a été entraîné pendant {{ train_time }} secondes.</p>
+    <p>L'évaluation désirée est le <i>recall</i>, et sur les données de validation, le score est de :</p>
+    <h3>Recall : {{ score }}</h3>
+{% endblock %}

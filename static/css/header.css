@@ -1,0 +1,6 @@
+header {
+    background-color: rgb(12, 44, 86);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
